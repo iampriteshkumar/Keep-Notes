@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Keep Notes</string>
+    <string name="todo">todo</string>
+    <string name="enter_note_description">Enter Note Description</string>
+    <string name="button">Button</string>
+    <string name="enter_note_title">Enter Note Title</string>
+    <string name="note_title">Note Title</string>
+    <string name="timestamp">TimeStamp</string>
+</resources>

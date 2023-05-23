@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="9dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    app:cardElevation="7dp"
+    app:cardBackgroundColor="@color/green_shade_1"
+    >
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/idTVNoteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="1dp"
+            android:layout_toLeftOf="@id/idIVDelete"
+            android:padding="3dp"
+            android:text="@string/note_title"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idTVTimeStamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVNoteTitle"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toLeftOf="@id/idIVDelete"
+            android:padding="3dp"
+            android:text="@string/timestamp"
+            android:textColor="@color/black_shade_1"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/idIVDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="7dp"
+            android:padding="3dp"
+            android:src="@drawable/ic_delete"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
